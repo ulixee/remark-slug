@@ -10,6 +10,11 @@
 
 [**remark**][remark] plugin to add anchors headings using GitHub’s algorithm.
 
+This fork uses "header-id" syntax if present
+
+``` ### header text {#id1}
+```
+
 > ⚠️ Note: This is often useful when compiling to HTML.
 > If you’re doing that, it’s probably smarter to use
 > [`remark-rehype`][remark-rehype] and [`rehype-slug`][rehype-slug] and benefit
